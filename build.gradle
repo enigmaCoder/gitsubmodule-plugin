@@ -22,7 +22,16 @@ gradlePlugin {
             id = 'io.github.gitsubmodule-plugin'
             displayName = "submodule-plugin"
             description = "plugin to add to git sub-module"
-            implementationClass = 'io.github.SubModuleManager'
+            implementationClass = 'SubModuleManager'
+        }
+    }
+}
+
+publishing {
+    repositories {
+        maven {
+            name = 'gitsubmodule-plugin-repo'
+            url = '../gitsubmodule-plugin-repo'
         }
     }
 }

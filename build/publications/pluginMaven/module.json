@@ -42,10 +42,10 @@
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
           "size": 3707,
-          "sha512": "6bf28a9e10c1222d307fcc21b5a4e878189bde5b60c1499f0560b39c23162871c9062d1d71af13f7e9a2b97b566cbf2787353426be44c0127bc7ca4be729db46",
-          "sha256": "03ea03dec3dc2205c39d5e9b0c2b0f131d8f1913d70f9025ff2b92c0de2f504f",
-          "sha1": "602efb814a63ddf8a79b9a00f37e9560a89281fa",
-          "md5": "f9e330ab4ae5944b29b675212cb88b5b"
+          "sha512": "f6ab8cd9afb91a5e5eb528f15ea9a4361a7a988a1c0ec7214e6124808ce1d35fa73a553221f701e4b8dc8e275e8dbebe6d8ea6e18a1df233046a1852409bac66",
+          "sha256": "76eddc3838f31d024e8a99c66d6abd2ddca9b75cb37a27bda01a7a6f4f13ed20",
+          "sha1": "b1e75fedd499fdf08eb95cd22bc116810b711942",
+          "md5": "f7d5712b81871c87d6e4a6f9d3945d4a"
         }
       ]
     },
@@ -86,10 +86,10 @@
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
           "size": 3707,
-          "sha512": "6bf28a9e10c1222d307fcc21b5a4e878189bde5b60c1499f0560b39c23162871c9062d1d71af13f7e9a2b97b566cbf2787353426be44c0127bc7ca4be729db46",
-          "sha256": "03ea03dec3dc2205c39d5e9b0c2b0f131d8f1913d70f9025ff2b92c0de2f504f",
-          "sha1": "602efb814a63ddf8a79b9a00f37e9560a89281fa",
-          "md5": "f9e330ab4ae5944b29b675212cb88b5b"
+          "sha512": "f6ab8cd9afb91a5e5eb528f15ea9a4361a7a988a1c0ec7214e6124808ce1d35fa73a553221f701e4b8dc8e275e8dbebe6d8ea6e18a1df233046a1852409bac66",
+          "sha256": "76eddc3838f31d024e8a99c66d6abd2ddca9b75cb37a27bda01a7a6f4f13ed20",
+          "sha1": "b1e75fedd499fdf08eb95cd22bc116810b711942",
+          "md5": "f7d5712b81871c87d6e4a6f9d3945d4a"
         }
       ]
     }
