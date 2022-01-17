@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github",
+    "group": "io.github.gitsubmodule-plugin",
     "module": "gitsubmodule-plugin",
     "version": "0.0.1",
     "attributes": {
@@ -25,15 +25,27 @@
         "org.jetbrains.kotlin.localToProject": "public",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "rejects": [
+              "[2.+,2.17.1)"
+            ]
+          },
+          "reason": "Cannot publish a plugin which resolves a vulnerable Log4j version (https://blog.gradle.org/log4j-vulnerability). Make sure to update your configuration so it does not happen."
+        }
+      ],
       "files": [
         {
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
-          "size": 3709,
-          "sha512": "ad2296dada139a1ac54c35c0c1e7d37ac0263686125499dd4e63e53e21a1e95b9477d6fa62608c9fcd78c6ccd2d3e868850c50e8813501f981ec6f7ad2bddd7d",
-          "sha256": "298ccb336edfb828f284fdcc6e885f98a6fd22f649b4e1571747dbb6c1eaad06",
-          "sha1": "59eff7e78efa02e44cfc5c8179c2469d1109de7e",
-          "md5": "95f92ce8d3115622b690dd494e7d5112"
+          "size": 3707,
+          "sha512": "6bf28a9e10c1222d307fcc21b5a4e878189bde5b60c1499f0560b39c23162871c9062d1d71af13f7e9a2b97b566cbf2787353426be44c0127bc7ca4be729db46",
+          "sha256": "03ea03dec3dc2205c39d5e9b0c2b0f131d8f1913d70f9025ff2b92c0de2f504f",
+          "sha1": "602efb814a63ddf8a79b9a00f37e9560a89281fa",
+          "md5": "f9e330ab4ae5944b29b675212cb88b5b"
         }
       ]
     },
@@ -57,15 +69,27 @@
           }
         }
       ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "rejects": [
+              "[2.+,2.17.1)"
+            ]
+          },
+          "reason": "Cannot publish a plugin which resolves a vulnerable Log4j version (https://blog.gradle.org/log4j-vulnerability). Make sure to update your configuration so it does not happen."
+        }
+      ],
       "files": [
         {
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
-          "size": 3709,
-          "sha512": "ad2296dada139a1ac54c35c0c1e7d37ac0263686125499dd4e63e53e21a1e95b9477d6fa62608c9fcd78c6ccd2d3e868850c50e8813501f981ec6f7ad2bddd7d",
-          "sha256": "298ccb336edfb828f284fdcc6e885f98a6fd22f649b4e1571747dbb6c1eaad06",
-          "sha1": "59eff7e78efa02e44cfc5c8179c2469d1109de7e",
-          "md5": "95f92ce8d3115622b690dd494e7d5112"
+          "size": 3707,
+          "sha512": "6bf28a9e10c1222d307fcc21b5a4e878189bde5b60c1499f0560b39c23162871c9062d1d71af13f7e9a2b97b566cbf2787353426be44c0127bc7ca4be729db46",
+          "sha256": "03ea03dec3dc2205c39d5e9b0c2b0f131d8f1913d70f9025ff2b92c0de2f504f",
+          "sha1": "602efb814a63ddf8a79b9a00f37e9560a89281fa",
+          "md5": "f9e330ab4ae5944b29b675212cb88b5b"
         }
       ]
     }

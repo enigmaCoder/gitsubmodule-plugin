@@ -3,9 +3,10 @@ plugins {
     id 'java'
     id 'java-gradle-plugin'
     id 'maven-publish'
+    id "com.gradle.plugin-publish" version "0.19.0"
 }
 
-group 'com.github'
+group 'io.github.gitsubmodule-plugin'
 version '0.0.1'
 
 repositories {
@@ -13,14 +14,25 @@ repositories {
     mavenCentral()
 }
 
+
+
 gradlePlugin {
     plugins {
         simplePlugin {
-            id = 'com.github.gitsubmodule-plugin'
-            implementationClass = 'SubModuleManager'
+            id = 'io.github.gitsubmodule-plugin'
+            displayName = "submodule-plugin"
+            description = "plugin to add to git sub-module"
+            implementationClass = 'io.github.SubModuleManager'
         }
     }
 }
+
+pluginBundle {
+    website = 'https://github.com/enigmaCoder'
+    vcsUrl = 'https://github.com/enigmaCoder/gitsubmodule-plugin.git'
+    tags = ['submodule', 'git', 'android', 'plugins']
+}
+
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
