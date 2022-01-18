@@ -1,1 +1,1 @@
-/Users/satyamsarkar/IdeaProjects/gitsubmodule-plugin/build/classes/kotlin/main/SubModuleManager.class:/Users/satyamsarkar/IdeaProjects/gitsubmodule-plugin/build/classes/kotlin/main/SubModuleParams.class
+/Users/satyamsarkar/IdeaProjects/gitsubmodule-plugin/build/classes/kotlin/main/SubModuleManager$apply$1$1$1$2.class:/Users/satyamsarkar/IdeaProjects/gitsubmodule-plugin/build/classes/kotlin/main/SubModuleManager.class:/Users/satyamsarkar/IdeaProjects/gitsubmodule-plugin/build/classes/kotlin/main/SubModuleParams.class

@@ -6,7 +6,7 @@ plugins {
     id "com.gradle.plugin-publish" version "0.19.0"
 }
 
-group 'io.github.gitsubmodule-plugin'
+group 'com.biofourmis'
 version '0.0.1'
 
 repositories {
@@ -19,7 +19,7 @@ repositories {
 gradlePlugin {
     plugins {
         simplePlugin {
-            id = 'io.github.gitsubmodule-plugin'
+            id = 'com.biofourmis.gitsubmodule-plugin'
             displayName = "submodule-plugin"
             description = "plugin to add to git sub-module"
             implementationClass = 'SubModuleManager'

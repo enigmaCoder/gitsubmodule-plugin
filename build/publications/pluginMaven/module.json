@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "io.github.gitsubmodule-plugin",
+    "group": "com.biofourmis",
     "module": "gitsubmodule-plugin",
     "version": "0.0.1",
     "attributes": {
@@ -41,11 +41,11 @@
         {
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
-          "size": 3707,
-          "sha512": "f6ab8cd9afb91a5e5eb528f15ea9a4361a7a988a1c0ec7214e6124808ce1d35fa73a553221f701e4b8dc8e275e8dbebe6d8ea6e18a1df233046a1852409bac66",
-          "sha256": "76eddc3838f31d024e8a99c66d6abd2ddca9b75cb37a27bda01a7a6f4f13ed20",
-          "sha1": "b1e75fedd499fdf08eb95cd22bc116810b711942",
-          "md5": "f7d5712b81871c87d6e4a6f9d3945d4a"
+          "size": 5281,
+          "sha512": "d00a650f1370f89294232ebe1606818a0e298ddb8289cf56ab02108950c73dfa2b39b2558dfdae736efcf4c97f5ef0da3c68704555950d69ba905a15e8cacf3d",
+          "sha256": "8854dbc07e9fc911a4958300cd9a870d5b3eac683d500d5063a4ef90ba4d0316",
+          "sha1": "2e2dd04f27cb886baf33861c1d6af79119694aa3",
+          "md5": "3cb49e036ecb41083ee57f8a397e3a39"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "gitsubmodule-plugin-0.0.1.jar",
           "url": "gitsubmodule-plugin-0.0.1.jar",
-          "size": 3707,
-          "sha512": "f6ab8cd9afb91a5e5eb528f15ea9a4361a7a988a1c0ec7214e6124808ce1d35fa73a553221f701e4b8dc8e275e8dbebe6d8ea6e18a1df233046a1852409bac66",
-          "sha256": "76eddc3838f31d024e8a99c66d6abd2ddca9b75cb37a27bda01a7a6f4f13ed20",
-          "sha1": "b1e75fedd499fdf08eb95cd22bc116810b711942",
-          "md5": "f7d5712b81871c87d6e4a6f9d3945d4a"
+          "size": 5281,
+          "sha512": "d00a650f1370f89294232ebe1606818a0e298ddb8289cf56ab02108950c73dfa2b39b2558dfdae736efcf4c97f5ef0da3c68704555950d69ba905a15e8cacf3d",
+          "sha256": "8854dbc07e9fc911a4958300cd9a870d5b3eac683d500d5063a4ef90ba4d0316",
+          "sha1": "2e2dd04f27cb886baf33861c1d6af79119694aa3",
+          "md5": "3cb49e036ecb41083ee57f8a397e3a39"
         }
       ]
     }
